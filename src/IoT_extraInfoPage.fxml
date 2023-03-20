@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2c4c84;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project.IoT_extraInfoPageController">
+   <top>
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="For extra information about the certifications and you want to obtain accredited certificates visit the website:" wrappingWidth="498.197265625" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets top="28.0" />
+         </BorderPane.margin>
+      </Text>
+   </top>
+   <center>
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="https://hackr.io/blog/best-iot-certifications" wrappingWidth="409.96875" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="190.0" right="290.0" />
+         </BorderPane.margin>
+      </Text>
+   </center>
+   <right>
+      <ImageView fitHeight="134.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@smartHome.png" />
+         </image>
+         <BorderPane.margin>
+            <Insets right="30.0" />
+         </BorderPane.margin>
+      </ImageView>
+   </right>
+   <bottom>
+      <HBox maxHeight="50.0" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#goToIoTViedeoPage" style="-fx-background-color: #50a1a5;" text="PREVIOUS" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="150.0" right="130.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#goToIoTThankPage" style="-fx-background-color: #50a1a5;" text="NEXT" textFill="WHITE" />
+         </children>
+      </HBox>
+   </bottom>
+   <left>
+      <HBox maxHeight="116.0" prefHeight="116.0" prefWidth="339.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="131.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@communication_png.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cloudComputing.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+         <BorderPane.margin>
+            <Insets left="40.0" />
+         </BorderPane.margin>
+      </HBox>
+   </left>
+</BorderPane>

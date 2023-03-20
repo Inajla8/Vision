@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2c4c84;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project.CS_extraInfoPageController">
+   <top>
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="For extra information about the certifications and you want to obtain accredited certificates visit the website:" wrappingWidth="498.197265625" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets top="28.0" />
+         </BorderPane.margin>
+      </Text>
+   </top>
+   <center>
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="https://www.coursera.org/articles/popular-cybersecurity-certifications" wrappingWidth="409.96875" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="160.0" left="100.0" />
+         </BorderPane.margin>
+      </Text>
+   </center>
+   <right>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@CybersecurityImg.png" />
+         </image>
+         <BorderPane.margin>
+            <Insets right="30.0" top="50.0" />
+         </BorderPane.margin>
+      </ImageView>
+   </right>
+   <bottom>
+      <HBox maxHeight="50.0" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#goToCSViedeoPage" style="-fx-background-color: #50a1a5;" text="PREVIOUS" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="150.0" right="130.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#goToCSThankPage" style="-fx-background-color: #50a1a5;" text="NEXT" textFill="WHITE" />
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

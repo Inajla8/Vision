@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2c4c84;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project.CS_pageController">
+   <children>
+      <Text fill="WHITE" nodeOrientation="LEFT_TO_RIGHT" strokeType="OUTSIDE" strokeWidth="0.0" text="Cybersecurity is a fast-growing field that addresses the security risks of our increasingly connected digital world. Learn cybersecurity, and you will learn how users, companies, and even governments protect themselves and recover from cyber threats and attacks. Start defending yourself or your organization, or let this be your first step to becoming a security professional!" textAlignment="CENTER" wrappingWidth="551.26123046875">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <FlowPane.margin>
+            <Insets left="20.0" top="20.0" />
+         </FlowPane.margin>
+      </Text>
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Functional areas: Information security analyst, Security Architect, Cybersecurity Engineer, Cybersecurity Manager" textAlignment="CENTER" wrappingWidth="522.677734375">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <FlowPane.margin>
+            <Insets left="33.0" top="20.0" />
+         </FlowPane.margin>
+      </Text>
+      <Text fill="WHITE" nodeOrientation="LEFT_TO_RIGHT" strokeType="OUTSIDE" strokeWidth="0.0" text="Certifications: CompTIA Security+, Certified Ethical Hacker (CEH), Certified Information Systems Security Professional (CISSP), Certified Information Systems Auditor (CISA)" textAlignment="CENTER" wrappingWidth="551.26123046875">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <FlowPane.margin>
+            <Insets left="20.0" top="20.0" />
+         </FlowPane.margin>
+      </Text>
+      <Button maxHeight="27.0" maxWidth="82.0" mnemonicParsing="false" onAction="#goToCSViedeoPage" prefHeight="27.0" prefWidth="82.0" style="-fx-background-color: #50a1a5;" text="NEXT" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <FlowPane.margin>
+            <Insets left="250.0" top="20.0" />
+         </FlowPane.margin>
+      </Button>
+   </children>
+</FlowPane>
